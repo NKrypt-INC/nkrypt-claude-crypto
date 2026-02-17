@@ -1,0 +1,24 @@
+{
+  "name": "nkrypt-claude-crypto",
+  "owner": {
+    "name": "nkrypt",
+    "email": "info@nkrypt.com"
+  },
+  "metadata": {
+    "description": "Cryptography skills for Claude Code: classical crypto hardening, secrets scanning, testing playbooks, plus PQC readiness and migration (beta)",
+    "version": "0.4.1-beta"
+  },
+  "plugins": [
+    {
+      "name": "crypto",
+      "source": "./plugins/crypto",
+      "description": "Full-spectrum cryptography guidance: classical hardening + PQC readiness, multi-language implementations, secrets scanning, testing, ops and compliance notes (beta)",
+      "version": "0.4.1-beta",
+      "author": {
+        "name": "nkrypt"
+      }
+    }
+  ],
+  "version": "0.4.1-beta",
+  "revision": 4
+}

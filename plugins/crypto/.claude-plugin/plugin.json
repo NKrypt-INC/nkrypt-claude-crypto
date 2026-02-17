@@ -1,0 +1,18 @@
+{
+  "name": "crypto",
+  "version": "0.4.1-beta",
+  "description": "End-to-end cryptography guidance: audit, secure implementations, passwords, TLS, secrets scanning, testing, operations, compliance notes, and PQC transition planning (beta)",
+  "author": {
+    "name": "nkrypt",
+    "email": "info@nkrypt.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "cryptography",
+    "pqc",
+    "tls",
+    "passwords",
+    "key-management"
+  ]
+}
