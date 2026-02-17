@@ -46,7 +46,7 @@ probe_one() {
   echo "== ${label} =="
   # -brief keeps output short on newer OpenSSL.
   set +e
-  out="$(openssl s_client -connect "${HOST}:${PORT}" -servername "${SNI}" ${flag} -brief </dev/null 2>&1)"
+  out="$(openssl s_client -connect "${HOST}:${PORT}" -servername "${SNI}" "${flag}" -brief </dev/null 2>&1)"
   rc=$?
   echo "${out}" | sed -n '1,25p'
   echo "exit: ${rc}"

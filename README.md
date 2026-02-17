@@ -12,7 +12,7 @@ npx skills add NKrypt-INC/nkrypt-claude-crypto
 
 Then open Claude Code in your project and type a slash command:
 
-```
+```text
 /crypto:audit
 ```
 
@@ -78,28 +78,36 @@ This repo also works as a marketplace bundle. See the [Claude Code docs](https:/
 
 ## Example workflows
 
-**"Audit this repo's crypto"**
-```
+### Audit this repo's crypto
+
+```text
 /crypto:audit
 ```
+
 Produces: repo map, crypto inventory, secrets scan, dependency CVE check, risk-ranked findings table, and a 30/60/90-day remediation plan.
 
-**"We need to hash passwords in our Go service"**
-```
+### Hash passwords in a Go service
+
+```text
 /crypto:passwords
 ```
+
 Produces: Argon2id implementation with exact library, working code, parameter guidance calibrated to your hardware, migration plan from old hashes, and test checklist.
 
-**"Harden our nginx TLS config"**
-```
+### Harden an nginx TLS config
+
+```text
 /crypto:tls
 ```
+
 Produces: copy-paste nginx config with TLS 1.3 preference, AEAD-only TLS 1.2, HSTS, and verification commands. Optionally includes hybrid PQ TLS rollout steps.
 
-**"Are there secrets in this codebase?"**
-```
+### Scan for leaked secrets
+
+```text
 /crypto:secrets
 ```
+
 Produces: layered scan (grep patterns, then dedicated scanners, then entropy analysis), redacted findings, containment plan, and CI gate recommendations.
 
 ## What this is not
@@ -110,7 +118,7 @@ Produces: layered scan (grep patterns, then dedicated scanners, then entropy ana
 
 ## Project layout
 
-```
+```text
 skills/                          # skills.sh-compatible (root-level)
   audit/SKILL.md
   secure/SKILL.md
