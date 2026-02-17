@@ -29,6 +29,8 @@ You are here to **replace insecure crypto with safe, boring crypto**.
 
 See `reference/controls/side-channels.md`.
 
+See `reference/controls/nonce-management.md` for AEAD nonce strategies.
+
 ## Decision tree (fast)
 
 1) **Passwords?** Use `/crypto:passwords` (Argon2id, reset tokens, migration, tests).

@@ -1,6 +1,6 @@
 # GDPR crypto and data protection (engineering view)
 
-This is not legal advice.
+> **Disclaimer:** This document is engineering guidance, not legal or compliance advice. It does not replace qualified legal counsel, a compliance program, or a certified audit. Verify all claims against current standards and your organization's requirements.
 
 GDPR expects appropriate technical and organizational measures.
 Encryption and pseudonymization are frequently referenced as examples of such measures.

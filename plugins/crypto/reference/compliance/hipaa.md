@@ -1,6 +1,6 @@
 # HIPAA security rule and encryption (engineering view)
 
-This is not legal advice.
+> **Disclaimer:** This document is engineering guidance, not legal or compliance advice. It does not replace qualified legal counsel, a compliance program, or a certified audit. Verify all claims against current standards and your organization's requirements.
 
 HIPAA does not mandate a single algorithm, but expects reasonable safeguards.
 Encryption is a common and powerful safeguard for ePHI.

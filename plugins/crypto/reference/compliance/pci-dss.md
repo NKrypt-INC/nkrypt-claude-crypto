@@ -1,6 +1,6 @@
 # PCI DSS cryptography checklist (engineering view)
 
-This is not legal advice. Use it to drive conversations with your PCI/compliance owners.
+> **Disclaimer:** This document is engineering guidance, not legal or compliance advice. It does not replace qualified legal counsel, a compliance program, or a certified audit. Verify all claims against current standards and your organization's requirements.
 
 ## High-level expectations
 

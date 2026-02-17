@@ -1,6 +1,6 @@
 # FIPS 140 compliance notes (engineering view)
 
-This is not legal advice. Treat it as engineering guidance to support a real compliance program.
+> **Disclaimer:** This document is engineering guidance, not legal or compliance advice. It does not replace qualified legal counsel, a compliance program, or a certified audit. Verify all claims against current standards and your organization's requirements.
 
 ## Key idea
 

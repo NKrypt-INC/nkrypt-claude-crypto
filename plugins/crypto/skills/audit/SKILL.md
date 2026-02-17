@@ -86,7 +86,7 @@ Find:
 - AES-GCM / ChaCha20-Poly1305 (good)
 - AES-CBC without MAC, raw AES-CTR without MAC (high risk)
 - homegrown “encrypt then base64” patterns
-- nonce/IV handling (reuse is catastrophic for GCM)
+- nonce/IV handling (reuse is catastrophic for GCM; see `reference/controls/nonce-management.md`)
 
 ### 1D) Randomness
 Find:

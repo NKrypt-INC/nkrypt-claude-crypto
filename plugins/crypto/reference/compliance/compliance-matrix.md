@@ -1,5 +1,7 @@
 # Compliance mapping matrix (starter)
 
+> **Disclaimer:** This document is engineering guidance, not legal or compliance advice. It does not replace qualified legal counsel, a compliance program, or a certified audit. Verify all claims against current standards and your organization's requirements.
+
 This matrix helps you map plugin activities to common compliance evidence needs.
 
 | Control area | What auditors often want | Use this plugin |
