@@ -1,1 +1,28 @@
+# Audit outputs (may contain sensitive scan results)
 .crypto-audit/
+
+# Claude Code local state
+.claude/
+
+# Environment and secrets
+.env
+.env.*
+.env.local
+.env.*.local
+
+# Private key material
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor state
+*.swp
+*.swo
+*~
