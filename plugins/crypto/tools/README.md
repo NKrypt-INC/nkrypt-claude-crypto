@@ -9,13 +9,13 @@ They are intentionally conservative:
 
 ## Quick start
 
-1) Make scripts runnable and see optional tool hints:
+1. Make scripts runnable and see optional tool hints:
 
 ```bash
 ./bootstrap.sh
 ```
 
-2) Run the helpers you need.
+2. Run the helpers you need.
 
 ## Included
 

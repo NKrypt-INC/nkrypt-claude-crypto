@@ -1,7 +1,7 @@
 # Security Policy
 
 ## Supported Versions
-This project is in beta (v0.4.1-beta). We support the latest release for security fixes.
+This project is in beta (v0.5.0-beta). We support the latest release for security fixes.
 
 ## Reporting a Vulnerability
 We take security seriously and appreciate your help! Do **not** open public issues for vulns. Use private channels to avoid exposing exploits.

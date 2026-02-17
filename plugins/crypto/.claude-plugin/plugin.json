@@ -1,6 +1,6 @@
 {
   "name": "crypto",
-  "version": "0.4.1-beta",
+  "version": "0.5.0-beta",
   "description": "End-to-end cryptography guidance: audit, secure implementations, passwords, TLS, secrets scanning, testing, operations, compliance notes, and PQC transition planning (beta)",
   "author": {
     "name": "nkrypt",

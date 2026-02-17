@@ -1,6 +1,6 @@
 # nkrypt-claude-crypto marketplace
 
-Status: **beta** (v0.4.1-beta). Treat outputs as triage and engineering playbooks, not a security audit.
+Status: **beta** (v0.5.0-beta). Treat outputs as triage and engineering playbooks, not a security audit.
 
 
 This repository contains a Claude Code marketplace bundle with a single plugin: **crypto**.

@@ -12,13 +12,13 @@ python -m pip install detect-secrets
 
 ## Baseline setup
 
-1) Create or update the baseline file:
+1. Create or update the baseline file:
 
 ```bash
 detect-secrets scan > .secrets.baseline
 ```
 
-2) Add a pre-commit hook (if you use pre-commit):
+2. Add a pre-commit hook (if you use pre-commit):
 
 ```yaml
 repos:
@@ -29,7 +29,7 @@ repos:
         args: ["--baseline", ".secrets.baseline"]
 ```
 
-3) Run in CI:
+3. Run in CI:
 
 ```bash
 detect-secrets-hook --baseline .secrets.baseline

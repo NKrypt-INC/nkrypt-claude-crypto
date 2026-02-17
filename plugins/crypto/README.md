@@ -1,6 +1,6 @@
 # Crypto Plugin for Claude Code
 
-Status: **beta** (v0.4.1-beta). Battle-tested in simulation and in limited repos, not production-hardened.
+Status: **beta** (v0.5.0-beta). Battle-tested in simulation and in limited repos, not production-hardened.
 
 
 Practical cryptography guidance for production codebases: classical hardening first, then measured post-quantum readiness.
