@@ -1,0 +1,8 @@
+{
+  // Line length: reference docs have intentionally long code lines
+  "MD013": false,
+  // Inline HTML: some docs use HTML for formatting
+  "MD033": false,
+  // First line H1: SKILL.md files start with YAML frontmatter
+  "MD041": false
+}
