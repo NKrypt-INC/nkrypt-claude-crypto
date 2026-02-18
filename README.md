@@ -141,6 +141,8 @@ plugins/crypto/                  # Full plugin with reference material
   tools/                         # Helper shell scripts (scanners, TLS probes)
 ```
 
+# Remember, this is your crypto co-pilot, not the pilot. Use it to accelerate secure development, then validate with experts.
+
 ## Standards referenced
 
 Skills link to primary sources throughout, including:
