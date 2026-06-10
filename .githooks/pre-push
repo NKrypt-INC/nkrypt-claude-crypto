@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+# No build / test step (static or empty repo). Add real checks later.
+echo "[pre-push] no-op (no detected ecosystem)"
