@@ -48,3 +48,6 @@ Fix broken classical crypto first, then plan PQC transitions with interoperabili
 - Keep claims humble. Prefer "often", "usually", "verify in your environment."
 - Include sources for standards-level claims (NIST, RFCs, OWASP).
 - Never include real secrets in examples. Use obvious placeholders.
+## No Parked PRs; Dead-Work Retention (Neil, 2026-07-03)
+
+A PR is a request to change the product, not a filing cabinet, and Neil never clicks merge. Never end a session with an open PR the session created: merge it green (CI passing) or close it with a one-line reason. The only exception is a PR genuinely awaiting Neil's decision, surfaced explicitly to him. Research output never rides as a PR; commit it to the repo docs on main or hand it to the vault. Uncommitted work is committed and pushed before the session ends, or deliberately discarded; nothing dangles in stashes, scratch files, or local-only branches. Abandoned work sweeps on a retention clock: older than 45 days is deleted; 14 to 45 days is archive-tagged (archive/<branch>-<YYYYMMDD>) with the tag deleted 30 days later; under 14 days is left alone. Sweep ledger: Dead-Workstream-Retention-Ledger in the vault (Orchestration).
